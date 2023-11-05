@@ -1,15 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
-</head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RainyDay</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Product.html">Product</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a class="login-btn">Login </a>
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+    <!-- Hero sections codes start -->
+    <div class="hero">
+      <div class="hero-container">
+        <div class="info">
+          <h2>
+            Explore Suitable <br />
+            Fashion for You
+          </h2>
+          <p>Embrace rainy days with style and comfort</p>
+          <a class="click" href="./Product.html">Go to Shop</a>
+        </div>
+      </div>
+    </div>
+    <!-- Product section codes starts -->
+    <div class="Products-container">
+      <div class="Product-heading">
+        <p class="variant">Variant Product</p>
+        <h2 class="ourbest">
+          Our Best
+          <span class="collectiontxt">Collection</span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="column">
+          <a href="./ProductDetail.html">
+            <img src="./images/Product1.png" class="Product-img" alt="image" />
+          </a>
+          <a href="./ProductDetail.html" class="Product-link">
+            <p class="Product-title">Scott Jacket #001</p>
+            <p class="Product-price">$129</p>
+          </a>
+        </div>
+        <div class="column">
+          <a href="./ProductDetail2.html">
+            <img src="./images/Product2.png" class="Product-img" alt="image" />
+          </a>
+          <a href="./ProductDetail2.html" class="Product-link">
+            <p class="Product-title">Scott Jacket #002</p>
+            <p class="Product-price">$120.99</p>
+          </a>
+        </div>
+        <div class="column">
+          <a href="./ProductDetail3.html">
+            <img src="./images/Product3.png" class="Product-img" alt="image" />
+          </a>
+          <a href="./ProductDetail3.html" class="Product-link">
+            <p class="Product-title">Scott Jacket #003</p>
+            <p class="Product-price">$149.00</p>
+          </a>
+        </div>
+        <div class="column">
+          <a href="./shirtdetail.html">
+            <img src="./images/shirt1.png" class="Product-img" alt="image" />
+          </a>
+          <a href="./shirtdetail.html" class="Product-link">
+            <p class="Product-title">Scott Shirt #004</p>
+            <p class="Product-price">$100.99</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our collection by categories -->
+
+    <div class="container">
+      <h2 class="category-heading">
+        Our <span class="collectiontxt">Collection</span> by <br />
+        Categories
+      </h2>
+      <div class="row">
+        <div class="card-column1">
+          <img src="./images/card1.png" class="card-img" alt="image" />
+          <div class="cardimg-txt">
+            <p>Sport Jacket</p>
+            <a class="click" href="./Product.html">Go to Shop</a>
+          </div>
+        </div>
+        <div class="card-column2">
+          <img src="./images/card2.png" class="card-img2" alt="image" />
+          <div class="cardimg-txt">
+            <p>Winter</p>
+            <a class="click" href="./winter.html">Go to Shop</a>
+          </div>
+        </div>
+        <div class="card-column3">
+          <img src="./images/card3.png" class="card-img" alt="image" />
+          <div class="cardimg-txt">
+            <p>Men</p>
+            <a class="click" href="./men.html">Go to Shop</a>
+          </div>
+        </div>
+        <div class="card-column3">
+          <img src="./images/card4.png" class="card-img2" alt="image" />
+          <div class="cardimg-txt">
+            <p>Women</p>
+            <a class="click" href="./women.html">Go to Shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The perfect collection -->
+    <div class="perfect-container">
+      <div class="perfect-row">
+        <div class="perfect-column1">
+          <h2 class="perfect-heading">
+            The
+            <span style="text-decoration: underline">Perfect</span> Collection
+          </h2>
+          <p class="perfect-txt">
+            Explore our collection of high-quality Scott brand jackets designed
+            to keep you dry and fashionable.
+          </p>
+          <a class="explore-btn" href="./Product.html">Explore Collection</a>
+        </div>
+        <div class="perfect-column2">
+          <img src="./images/perfectimg.png" style="width: 80%" alt="image" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Customer Say -->
+    <div class="customer-container">
+      <h2 class="category-heading">
+        What Our <br />
+        <span class="collectiontxt">Customer</span> Say
+      </h2>
+      <div class="card-row">
+        <div class="card-column">
+          <img src="./images/profile1.jpg" class="profile-img" alt="image" />
+          <p class="card-title">Cameron Williamson</p>
+          <p class="card-txt">
+            There service is supper awesome and the quality of there jackets are
+            just amazing
+          </p>
+        </div>
+        <div class="card-column">
+          <img src="./images/profile2.jpg" class="profile-img" alt="image" />
+          <p class="card-title">Floyd Miles</p>
+          <p class="card-txt">
+            I love the way they treat there client. Recomended
+          </p>
+        </div>
+        <div class="card-column">
+          <img src="./images/profile3.jpg" class="profile-img" alt="image" />
+          <p class="card-title">Esther Howard</p>
+          <p class="card-txt">
+            If you want jackets you can defiantly buy from them there quality is
+            so amazing in cheap prices
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- image view -->
+    <div class="customer-container">
+      <img src="./images/view.png" class="view-img" alt="image" />
+    </div>
+    <!-- Newsletter -->
+    <div class="newsletter-container">
+      <h2 class="newsletter-heading">
+        Sign Up to Get Newsletter, <br />Promo and Updates.
+      </h2>
+      <form class="inline-form" id="myForm">
+        <input
+          type="text"
+          placeholder="Enter your email"
+          style="width: 433px"
+        />
+        <input type="submit" value="Submit" id="submitBtn" />
+      </form>
+
+      <p
+        id="message"
+        style="color: green; font-weight: 600; font-size: 17px; display: none"
+      >
+        Email sent!
+      </p>
+    </div>
+    <!-- Footer section -->
+    <div class="footer">
+      <div class="logoline-container">
+        <div class="top-line"></div>
+        <div class="logo-container">
+          <img src="./images/logo.png" class="logo-img" alt="image" />
+        </div>
+        <div class="bottom-line"></div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-pages">
+          <a class="pages-title" href="./Product.html">Product</a>
+          <a class="pages-title" href="./about.html">About</a>
+          <a class="pages-title" href="./contact.html">Contact</a>
+        </div>
+        <div class="icon-section">
+          <img src="./images/facebook.png" class="logo-img" alt="image" />
+          <img src="./images/instagram.png" class="logo-img" alt="image" />
+          <img src="./images/linkedin.png" class="logo-img" alt="image" />
+          <img src="./images/twitter.png" class="logo-img" alt="image" />
+        </div>
+        <div class="footer-copyright">
+          <p class="copyright">Copyright, Rainydays 2023. All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          document.getElementById("message").style.display = "block";
+        });
+    </script>
+  </body>
 </html>

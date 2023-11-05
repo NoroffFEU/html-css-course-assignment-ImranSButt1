@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RainyDay</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Product.html">Product</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a class="login-btn">Login </a>
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="ProductDetail-container">
+      <div class="row">
+        <div class="checkout-column">
+          <h2 class="checkoutheading">Checkout</h2>
+          <p class="checkouttxt">Choose delivery address and payment method</p>
+
+          <div class="delivery-container">
+            <h2>Delivery Address</h2>
+            <a>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.75 12H20.25"
+                  stroke="#222329"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 3.75V20.25"
+                  stroke="#222329"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <p>Add New Address</p>
+            </a>
+          </div>
+          <div class="address-container">
+            <svg
+              width="60"
+              height="60"
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="60" height="60" rx="30" fill="#F4F4F4" />
+              <path
+                d="M29.9999 31.6684C32.0102 31.6684 33.6399 30.0387 33.6399 28.0284C33.6399 26.0181 32.0102 24.3884 29.9999 24.3884C27.9895 24.3884 26.3599 26.0181 26.3599 28.0284C26.3599 30.0387 27.9895 31.6684 29.9999 31.6684Z"
+                stroke="#070707"
+                stroke-width="1.5"
+              />
+              <path
+                d="M20.2232 25.9049C22.5215 15.8016 37.4898 15.8133 39.7765 25.9166C41.1182 31.8433 37.4315 36.8599 34.1998 39.9633C31.8548 42.2266 28.1448 42.2266 25.7882 39.9633C22.5682 36.8599 18.8815 31.8316 20.2232 25.9049Z"
+                stroke="#070707"
+                stroke-width="1.5"
+              />
+            </svg>
+            <div class="adress-detail">
+              <h2 class="address-title">Jane’s Home</h2>
+              <p class="addresstxt">
+                4517 Washington Ave. Manchester, Kentucky 39495 | Jane Cooper |
+                081227562658
+              </p>
+            </div>
+          </div>
+          <div class="delivery-container">
+            <h2>Payment Method</h2>
+            <a>
+              <p>See All</p>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 18L18 6"
+                  stroke="#070707"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.25 6H18V15.75"
+                  stroke="#070707"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="payment-method">
+            <div class="payment-detail">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+               
+              <label for="html">
+                <img
+                  src="./images/paypal.png"
+                  class="checkout-icon"
+                  alt="logo"
+                />
+                <div class="adress-detail">
+                  <h2>Paypal</h2>
+                  <p class="emailtxt">jamesarrifin@gmail.com</p>
+                </div>
+              </label>
+            </div>
+            <div>
+              <p class="connectedtxt">connected</p>
+            </div>
+          </div>
+
+          <hr />
+          <div class="payment-method">
+            <div class="payment-detail">
+              <input type="radio" name="fav_language" value="HTML" />
+               
+              <label>
+                <img src="./images/visa.png" class="checkout-icon" alt="logo" />
+                <div class="adress-detail">
+                  <h2>Visa</h2>
+                  <p class="emailtxt">**** **** **** 2947</p>
+                </div>
+              </label>
+            </div>
+            <div>
+              <p class="connectedtxt">connected</p>
+            </div>
+          </div>
+
+          <hr />
+          <div class="payment-method">
+            <div class="payment-detail">
+              <input type="radio" name="fav_language" value="HTML" />
+               
+              <label for="html">
+                <img
+                  src="./images/mastarcard.png"
+                  class="checkout-icon"
+                  alt="logo"
+                />
+                <div class="adress-detail">
+                  <h2>Mastercard</h2>
+                  <p class="emailtxt">**** **** **** 8730</p>
+                </div>
+              </label>
+            </div>
+            <div>
+              <p class="connectedtxt">connected</p>
+            </div>
+          </div>
+        </div>
+        <div class="checkout-column1">
+          <div class="order-card">
+            <h2>Order Summary</h2>
+            <div class="pricing-charges">
+              <p class="chargesname">Scott jacket</p>
+              <p class="chargesname">$169</p>
+            </div>
+            <div class="pricing-charges">
+              <p class="chargesname">Tax</p>
+              <p class="chargesname">$1</p>
+            </div>
+            <div class="pricing-charges">
+              <p class="chargesname">other</p>
+              <p class="chargesname">$0</p>
+            </div>
+            <hr />
+            <div class="pricing-charges">
+              <p class="totalpricetxt">Total Price (item)</p>
+              <p class="totalpricetxt">$170</p>
+            </div>
+            <div class="pricing-charges">
+              <p class="totalpricetxt">Shipping Tax & Fee</p>
+              <p class="totalpricetxt">free</p>
+            </div>
+            <div class="pricing-charges">
+              <p>Grand Total</p>
+              <p>$170</p>
+            </div>
+            <a class="paynowbtn" id="myBtn">Pay Now</a>
+            <div id="myModal" class="modal" style="display: none">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <svg
+                  width="86"
+                  height="86"
+                  viewBox="0 0 86 86"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="thnkyousvg"
+                >
+                  <path
+                    d="M43 83C48.2539 83.0068 53.4573 81.9753 58.3112 79.9647C63.1652 77.954 67.5739 75.004 71.284 71.284C75.004 67.5739 77.954 63.1652 79.9647 58.3112C81.9753 53.4573 83.0068 48.2539 83 43C83.0067 37.7462 81.9751 32.5428 79.9645 27.6889C77.9539 22.835 75.0039 18.4262 71.284 14.716C67.5739 10.9961 63.1652 8.04603 58.3112 6.0354C53.4573 4.02478 48.2539 2.99323 43 3.00003C37.7462 2.99334 32.5428 4.02494 27.6889 6.03556C22.835 8.04618 18.4262 10.9962 14.716 14.716C10.9962 18.4262 8.04618 22.835 6.03556 27.6889C4.02494 32.5428 2.99334 37.7462 3.00003 43C2.99323 48.2539 4.02478 53.4573 6.0354 58.3112C8.04603 63.1652 10.9961 67.5739 14.716 71.284C18.4262 75.0039 22.835 77.9539 27.6889 79.9645C32.5428 81.9751 37.7462 83.0067 43 83Z"
+                    stroke="#03A63C"
+                    stroke-width="5.33333"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M27 43L39 55L63 31"
+                    stroke="#03A63C"
+                    stroke-width="5.33333"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <h2>thank you!</h2>
+                <p>
+                  ​​Thanking customers for their order does two things. First of
+                  all, when it’s delivered in a thank you page or thank you
+                  email, it confirms for them that their order is, indeed
+                  complete. Checkout processes are always more than one click,
+                  so this is important.
+                </p>
+                <a href="./Product.html">Track your order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logoline-container">
+        <div class="top-line"></div>
+        <div class="logo-container">
+          <img src="./images/logo.png" class="logo-img" alt="logo" />
+        </div>
+        <div class="bottom-line"></div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-pages">
+          <a class="pages-title" href="./Product.html">Product</a>
+          <a class="pages-title" href="./about.html">About</a>
+          <a class="pages-title" href="./contact.html">Contact</a>
+        </div>
+        <div class="icon-section">
+          <img src="./images/facebook.png" class="logo-img" alt="logo" />
+          <img src="./images/instagram.png" class="logo-img" alt="logo" />
+          <img src="./images/linkedin.png" class="logo-img" alt="logo" />
+          <img src="./images/twitter.png" class="logo-img" alt="logo" />
+        </div>
+        <div class="footer-copyright">
+          <p class="cop">Copyright, Rainydays 2023. All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+      var modal = document.getElementById("myModal");
+
+      var btn = document.getElementById("myBtn");
+
+      var span = document.getElementsByClassName("close")[0];
+
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
