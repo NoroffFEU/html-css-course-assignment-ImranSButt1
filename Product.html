@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RainyDay</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Product.html">Products</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a class="login-btn">Login </a>
+
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+
+    <div class="Products-container">
+      <div class="row">
+        <div class="filter-column">
+          <p class="categories-text">Categories</p>
+          <ul>
+            <li><a href="./Product.html" data-page="Product">Jackets</a></li>
+            <li><a href="./shirts.html" data-page="shirts">Shirts</a></li>
+            <li><a href="./pant.html" data-page="pant">Pants</a></li>
+            <li><a href="./trouser.html" data-page="trouser">Trousers</a></li>
+            <li>Others</li>
+          </ul>
+
+          <div class="line"></div>
+        </div>
+        <div class="arrival-column">
+          <div class="newarrival">
+            <div class="newarrival-container-text">
+              <p class="arrivaltxt">N E W &nbsp; A R R I V A L</p>
+              <h2 class="arrivalheading">Scott Jacket</h2>
+              <p class="arrivaldesp">
+                Experience unmatched protection from the elements with our Scott
+                waterproof jacket. Seam-sealed and built to withstand heavy
+                rain, this jacket will keep you dry and stylish.
+              </p>
+              <a class="shopnow-btn" href="#ourProducts">Shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="filter-column">
+          <p class="categories-text">Price</p>
+          <div class="price-input">
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+            <div class="range-input">
+              <input
+                type="range"
+                class="range-min"
+                min="0"
+                max="10000"
+                value="2500"
+                step="100"
+              />
+              <input
+                type="range"
+                class="range-max"
+                min="0"
+                max="10000"
+                value="7500"
+                step="100"
+              />
+            </div>
+            <div class="price-feild">
+              <div class="field">
+                <span>Price</span>
+                <input type="number" class="input-min" value="2500" />
+              </div>
+              <div class="separator">-</div>
+              <div class="field">
+                <input type="number" class="input-max" value="7500" />
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="arrival-column">
+          <div class="ourProducts">
+            <p class="Productheading">Our Products</p>
+            <div class="Productsview">
+              <p>Showing 1 - 12 of 120 results.</p>
+              <div class="sortby">
+                <p>Sort by</p>
+                <select name="Popular">
+                  <option value="volvo">Popular</option>
+                  <option value="saab">Most Search</option>
+                </select>
+                <svg
+                  width="1"
+                  height="32"
+                  viewBox="0 0 1 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect opacity="0.25" width="1" height="32" fill="#303030" />
+                </svg>
+
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2.25 2.25V21.75H21.75V2.25H2.25ZM20.25 11.25H12.75V3.75H20.25V11.25ZM11.25 3.75V11.25H3.75V3.75H11.25ZM3.75 12.75H11.25V20.25H3.75V12.75ZM12.75 20.25V12.75H20.25V20.25H12.75Z"
+                    fill="#D8C29D"
+                  />
+                </svg>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.5">
+                    <path d="M1.5 4.5H22.5V6H1.5V4.5Z" fill="#222222" />
+                    <path d="M1.5 11.25H22.5V12.75H1.5V11.25Z" fill="#222222" />
+                    <path d="M1.5 18H22.5V19.5H1.5V18Z" fill="#222222" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <hr style="border-color: #dedede; height: 0.5px" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="filter-column">
+          <p class="categories-text">Material</p>
+          <form>
+            <input type="checkbox" name="Leather" value="Leather" checked />
+            <label class="material-label"> Leather (23) </label><br />
+            <input type="checkbox" name="Pure-Leather" value="Pure-Leather" />
+            <label class="material-label"> Pure Leather (19)</label><br />
+            <input type="checkbox" name="Other-Material" value="Pure-Leather" />
+            <label class="material-label"> Other Material (11)</label
+            ><br /><br />
+          </form>
+
+          <div class="line"></div>
+          <p class="categories-text">Brands</p>
+          <form>
+            <input type="checkbox" name="Leather" value="Leather" />
+            <label class="material-label"> Adidas (14) </label><br />
+            <input type="checkbox" name="Leather" value="Leather" />
+            <label class="material-label"> Polo (11) </label><br />
+            <input type="checkbox" name="Leather" value="Leather" />
+            <label class="material-label"> Puma (15) </label><br />
+            <input type="checkbox" name="Pure-Leather" value="Pure-Leather" />
+            <label class="material-label"> Scott (14)</label><br />
+            <input type="checkbox" name="Pure-Leather" value="Pure-Leather" />
+            <label class="material-label"> Fila (6)</label><br />
+            <input
+              type="checkbox"
+              name="Other-Material"
+              value="Pure-Leather"
+              checked
+            />
+            <label class="material-label"> Nike (10)</label><br /><br />
+          </form>
+
+          <div class="line"></div>
+          <p class="categories-text">Size</p>
+          <div class="size-container">
+            <a>XS</a>
+            <a>S</a>
+            <a class="active">M</a>
+            <a>L</a>
+            <a>XL</a>
+            <a>2XL</a>
+          </div>
+          <p class="cleartxt">X CLEAR ALL FILTER</p>
+        </div>
+        <div class="arrival-column" id="ourProducts">
+          <div class="row">
+            <div class="Product-outlet">
+              <div class="Product-column">
+                <a href="./ProductDetail.html">
+                  <img
+                    src="./images/Product1.png"
+                    class="Product-image"
+                    alt="image"
+                  />
+                </a>
+                <div class="Product-details">
+                  <a href="./ProductDetail.html">
+                    <p class="Product-head">Scott Jacket #001</p>
+                    <p class="price-Product">$129</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="Product-column">
+                <a href="./ProductDetail2.html">
+                  <img
+                    src="./images/Product2.png"
+                    class="Product-image"
+                    alt="image"
+                  />
+                </a>
+                <div class="Product-details">
+                  <a href="./ProductDetail2.html">
+                    <p class="Product-head">Scott Jacket #002</p>
+                    <p class="price-Product">$120</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="Product-column1">
+                <a href="./productDetail3.html">
+                  <img
+                    src="./images/product3.png"
+                    class="Product-image"
+                    alt="image"
+                  />
+                </a>
+                <div class="Product-details">
+                  <a href="./productDetail3.html">
+                    <p class="Product-head">Scott Jacket #004</p>
+                    <p class="price-Product">$149</p>
+                  </a>
+                </div>
+              </div>
+              <div class="Product-column1">
+                <a href="./productDetail4.html">
+                  <img
+                    src="./images/Product4.png"
+                    class="Product-image"
+                    alt="image"
+                  />
+                </a>
+                <div class="Product-details">
+                  <a href="./productDetail4.html">
+                    <p class="Product-head">Scott Jacket #005</p>
+                    <p class="price-Product">$169</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul id="pagination">
+          <li><a class="" href="#">«</a></li>
+          <li><a href="#" class="active">1</a></li>
+
+          <li><a href="#">»</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="Products-container">
+      <div class="collection-hero">
+        <div class="collectionhero-container">
+          <div class="collection-info">
+            <h2>Scott Jackets</h2>
+            <p>
+              Introducing our new minimalist collection. Suitable for the active
+              yet elegant..
+            </p>
+            <a class="click" href="#ourProducts">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section -->
+    <div class="footer">
+      <div class="logoline-container">
+        <div class="top-line"></div>
+        <div class="logo-container">
+          <img src="./images/logo.png" class="logo-img" alt="image" />
+        </div>
+        <div class="bottom-line"></div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-pages">
+          <a class="pages-title" href="./Product.html">Products</a>
+          <a class="pages-title" href="./about.html">About</a>
+          <a class="pages-title" href="./contact.html">Contact</a>
+        </div>
+        <div class="icon-section">
+          <img src="./images/facebook.png" class="logo-img" alt="image" />
+          <img src="./images/instagram.png" class="logo-img" alt="image" />
+          <img src="./images/linkedin.png" class="logo-img" alt="image" />
+          <img src="./images/twitter.png" class="logo-img" alt="image" />
+        </div>
+        <div class="footer-copyright">
+          <p class="cop">Copyright, Rainydays 2023. All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
