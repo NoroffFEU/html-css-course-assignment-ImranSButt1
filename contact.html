@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RainyDay</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="navbar">
+          <div class="close-nav"><button>×</button></div>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Product.html">Product</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a class="login-btn">Login </a>
+        <div class="menu-bar">
+          <button><i></i></button>
+        </div>
+      </div>
+    </header>
+    <!-- Contact form -->
+    <div class="contact-container">
+      <div class="contact-form">
+        <div class="row">
+          <div class="contact-column">
+            <div class="contact-info">
+              <h1 class="contact-heading">
+                Let’s discuss on something cool together
+              </h1>
+              <div class="mailview">
+                <svg
+                  width="21"
+                  height="16"
+                  viewBox="0 0 21 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0V2.625L10.5 7.875L21 2.625V0H0ZM0 5.25V15.75H21V5.25L10.5 10.5L0 5.25Z"
+                    fill="white"
+                  />
+                </svg>
+                <p class="contactmail">Order@Rainydays.com</p>
+              </div>
+              <div class="mailview">
+                <svg
+                  width="16"
+                  height="25"
+                  viewBox="0 0 16 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.59119 0C0.249688 0 0 0.249688 0 0.59119V24.407C0 24.7503 0.249688 25 0.59119 25H15.0437C15.387 25 15.6367 24.7503 15.6367 24.407V0.59119C15.6367 0.249688 15.387 0 15.0437 0L0.59119 0ZM3.1211 3.1211H12.4844V18.7266H3.1211V3.1211ZM7.80275 20.2871C8.67665 20.2871 9.3633 20.9738 9.3633 21.8477C9.3633 22.7216 8.67665 23.4082 7.80275 23.4082C6.92884 23.4082 6.2422 22.7216 6.2422 21.8477C6.2422 20.9738 6.92884 20.2871 7.80275 20.2871Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <p class="contactmail">+123 4567 18283</p>
+              </div>
+              <div class="mailview">
+                <svg
+                  width="26"
+                  height="25"
+                  viewBox="0 0 26 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0.0312187V25.0062H24.975V17.5761C25.026 17.35 25.026 17.1154 24.975 16.8893V0H0V0.0312187ZM3.12187 3.15309H21.8531V15.6406H17.1703C17.0768 15.6321 16.9828 15.6321 16.8893 15.6406C16.4753 15.6778 16.0931 15.878 15.8267 16.1971C15.5603 16.5162 15.4316 16.928 15.4689 17.342C15.5061 17.756 15.7063 18.1382 16.0254 18.4046C16.3445 18.671 16.7563 18.7997 17.1703 18.7624H21.8531V21.8843H3.12187V3.15309ZM10.9265 6.27496C8.33539 6.27496 6.24374 8.36661 6.24374 10.9578C6.24374 14.0796 10.9265 18.7624 10.9265 18.7624C10.9265 18.7624 15.6094 14.0796 15.6094 10.9578C15.6094 8.36661 13.5177 6.27496 10.9265 6.27496ZM10.9265 9.39683C11.8007 9.39683 12.4875 10.0836 12.4875 10.9578C12.4875 11.8319 11.8007 12.5187 10.9265 12.5187C10.0524 12.5187 9.36561 11.8319 9.36561 10.9578C9.36561 10.0836 10.0524 9.39683 10.9265 9.39683Z"
+                    fill="white"
+                  />
+                </svg>
+
+                <p class="contactmail">123 address House No</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="contact-detail">
+              <p class="interest-text">I’m interested in...</p>
+              <form>
+                <input placeholder=" Name" type="text" /><br /><br />
+                <input placeholder=" Email" type="text" /><br /><br />
+                <input placeholder=" Message" type="text" /><br /><br />
+                <button id="sendMessageButton" class="sendbtn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="svgsend"
+                  >
+                    <path
+                      d="M23.9471 1.02859C24.0017 0.892291 24.015 0.742981 23.9855 0.599166C23.956 0.455352 23.885 0.323358 23.7812 0.219548C23.6774 0.115738 23.5454 0.0446781 23.4015 0.015177C23.2577 -0.0143242 23.1084 -0.000968961 22.9721 0.053587L1.15162 8.78209H1.2312L0.472125 9.05209C0.34371 9.10331 0.231953 9.18903 0.149198 9.29978C0.0664433 9.41053 0.0159116 9.542 0.00318483 9.67967C-0.00954198 9.81734 0.0160314 9.95584 0.0770801 10.0799C0.138129 10.2039 0.232277 10.3087 0.349125 10.3826L0.964125 10.7726L0.965625 10.7756L8.45812 15.5426L13.2251 23.0351L13.2281 23.0381L13.6181 23.6531C13.6923 23.7695 13.7971 23.8632 13.921 23.9238C14.045 23.9845 14.1833 24.0098 14.197 23.9969C14.4581 23.984 14.5892 23.9335 14.6998 23.8509C14.8103 23.7683 14.8959 23.6567 14.9471 23.5286L23.9471 1.02859ZM21.1976 3.86359L9.95662 15.1046L9.63412 14.5976C9.57503 14.5045 9.49616 14.4257 9.40312 14.3666L8.89612 14.0441L20.1371 2.80309L21.9041 2.09659L21.1991 3.86359H21.1976Z"
+                      fill="#EEEEEE"
+                    />
+                  </svg>
+
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="icon-section">
+          <img src="./images/facebook.png" class="logo-img" alt="logo" />
+          <img src="./images/instagram.png" class="logo-img" alt="logo" />
+          <img src="./images/linkedin.png" class="logo-img" alt="logo" />
+          <img src="./images/newtwitter.png" class="logo-img" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <!-- Newsupdate section -->
+    <div class="contact-newsupdate">
+      <div class="newsupdate-container">
+        <h2 class="newsupdate-heading">Want a Newest Updates?</h2>
+        <p class="newsupdate-txt">
+          Input your email into form below to get updates from us
+        </p>
+        <form class="inline-form" id="myForm">
+          <input type="text" placeholder="Enter your email" />
+          <input type="submit" value="Submit" id="submitBtn" />
+        </form>
+        <p
+          id="message"
+          style="
+            color: #fff;
+            font-weight: 600;
+            font-size: 17px;
+            display: none;
+            text-align: center;
+          "
+        >
+          Email sent!
+        </p>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <div class="logoline-container">
+        <div class="top-line"></div>
+        <div class="logo-container">
+          <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="bottom-line"></div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-pages">
+          <a class="pages-title" href="./Product.html">Product</a>
+          <a class="pages-title" href="./about.html">About</a>
+          <a class="pages-title" href="./contact.html">Contact</a>
+        </div>
+        <div class="icon-section">
+          <img src="./images/facebook.png" class="logo-img" alt="logo" />
+          <img src="./images/instagram.png" class="logo-img" alt="logo" />
+          <img src="./images/linkedin.png" class="logo-img" alt="logo" />
+          <img src="./images/twitter.png" class="logo-img" alt="logo" />
+        </div>
+        <div class="footer-copyright">
+          <p class="cop">Copyright, Rainydays 2023. All Right Reserved</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Add a click event listener to the "Send Message" button
+      document
+        .getElementById("sendMessageButton")
+        .addEventListener("click", function () {
+          // Perform an action when the button is clicked
+          alert("Message sent!"); // You can replace this with your desired action
+        });
+    </script>
+    <script>
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          document.getElementById("message").style.display = "block";
+        });
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
